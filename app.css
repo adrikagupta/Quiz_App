@@ -7,19 +7,29 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h1{
-    font-size: 4rem;
+h1,h2,h3,h4{
+    
     color: rgb(85, 6, 138);
     margin-bottom: 1.5rem;
 }
-
+h2{
+    font-size: 3rem ;
+}
+h1{
+    font-size: 4rem ;
+    margin-bottom: 2.5rem;
+}
+.container>*{
+    width:100%;
+}
 .container{
     display: flex;
     width: 100vw;
     height:100vh;
-    max-width: 80rem;
+    max-width: 70rem;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -32,6 +42,10 @@ h1{
 .flex-center{
     align-items: center;
     justify-content: center;
+}
+.justify-center{
+    justify-content: center;
+    
 }
 
 .btn{
@@ -51,4 +65,10 @@ h1{
     box-shadow: 0rem 0.4rem 1.4rem 0 rgb(209, 177, 228);
     transform: translateY(-0.2rem);
     transition: transform 150ms;
+}
+
+.btn[disabled]:hover{
+    transform: none;
+    box-shadow: none;
+    transition: none;
 }
