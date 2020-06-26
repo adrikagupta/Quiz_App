@@ -1,0 +1,54 @@
+:root{
+    background-color: rgb(240, 224, 239);
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 4rem;
+    color: rgb(85, 6, 138);
+    margin-bottom: 1.5rem;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height:100vh;
+    max-width: 80rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 1.7rem;
+    border: 0.1rem solid #452b4b;
+    padding: 0.8rem 0 ;
+    width: 15rem;
+    text-align: center;
+    color: rgb(76, 45, 88);
+    background-color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0rem 0.4rem 1.4rem 0 rgb(209, 177, 228);
+    transform: translateY(-0.2rem);
+    transition: transform 150ms;
+}
