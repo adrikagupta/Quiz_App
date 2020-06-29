@@ -13,3 +13,9 @@ li:hover{
     transform: scale(1.05);
     cursor: default;
 }
+
+#scoreList{
+    background-color: white;
+    width:70%;
+    height: 40rem;
+}
