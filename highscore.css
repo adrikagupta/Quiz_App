@@ -1,0 +1,15 @@
+#highScoreList{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.userScoreList{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+li:hover{
+    transform: scale(1.05);
+    cursor: default;
+}
