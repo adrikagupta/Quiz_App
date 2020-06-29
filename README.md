@@ -14,9 +14,12 @@ This quiz application has been built using fundamental HTML, CSS, and JavaScript
 This application loads questions from a 3rd party API, track and display high scores,etc.
 
 ## Screenshots
-![Home Page](./screenshots/Screenshot(1).png)
-![MCQ](./screenshots/Screenshot(5).png)
-![High Score](./screenshots/Screenshot(4).png)
+<img src="/screenshots/Screenshot (1).png" alt="Home Page">
+
+<img src="/screenshots/Screenshot (5).png" alt="MCQ">
+
+<img src="/screenshots/Screenshot (4).png" alt="High Scores">
+
 
 ## Technologies
 * HTML5
